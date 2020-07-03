@@ -1,0 +1,33 @@
+{
+  "name": "mock-sonos-http-api",
+  "version": "0.0.1",
+  "description": "A mock for (parts of) the api op node-sonos-http-api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fguchelaar/mock-sonos-http-api.git"
+  },
+  "keywords": [
+    "node",
+    "sonos",
+    "mock",
+    "api",
+    "http"
+  ],
+  "author": "F. Guchelaar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fguchelaar/mock-sonos-http-api/issues"
+  },
+  "homepage": "https://github.com/fguchelaar/mock-sonos-http-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
